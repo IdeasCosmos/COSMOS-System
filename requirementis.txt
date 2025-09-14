@@ -1,0 +1,48 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.1
+
+# Machine Learning
+torch==2.0.1  # CPU version, GPU: torch==2.0.1+cu118
+# transformers==4.35.0  # 추천: BERT 대안 모델 사용시 (적합성 97%)
+
+# Korean NLP
+konlpy==0.6.0
+jpype1==1.4.1
+# mecab-python3==1.0.6  # 추천: 더 빠른 형태소 분석 (적합성 96%)
+
+# Audio Processing
+librosa==0.10.1
+# soundfile==0.12.1  # 추천: 다양한 오디오 포맷 지원 (적합성 95%)
+
+# Configuration
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+cryptography==41.0.7
+
+# Database & Cache
+redis==5.0.0
+# sqlalchemy==2.0.23  # 추천: PostgreSQL 연동시 (적합성 96%)
+
+# Monitoring
+# prometheus-client==0.19.0  # 추천: 메트릭 수집 (적합성 95%)
+
+# Visualization (optional)
+matplotlib==3.7.2
+# plotly==5.18.0  # 추천: 인터랙티브 시각화 (적합성 95%)
+
+# Development (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+pylint==3.0.3
