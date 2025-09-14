@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data & Models
+data/korean_emotion.parquet
+data/eeg_calibration.json
+data/models/
+*.h5
+*.pkl
+*.pth
+*.onnx
+
+# Logs
+logs/
+*.log
+*.pid
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Docker
+docker-compose.override.yml
+
+# Project specific
+updated_word_emotions.json
+*.parquet
+emotion_vector_plot.png
+music_structure_plot.png
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.bak
