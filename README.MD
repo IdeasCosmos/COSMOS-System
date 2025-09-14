@@ -169,8 +169,8 @@ MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일 참조
 
 ## 문의
 
-- 이슈: [GitHub Issues] (https://github.com/yourusername/COSMOS-Emotion-System/issues)
-- 이메일: cosmos@example.com
+- 깃허브: [GitHub] (https://github.com/IdeasCosmos/COSMOS-System)
+- 이메일: sjpupro@gmail.com
 
 ---
 
